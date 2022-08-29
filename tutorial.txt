@@ -71,10 +71,14 @@ iptables -A OUTPUT -p tcp --dport 8118 -j ACCEPT
 iptables -A OUTPUT -p tcp --dport 9050 -j ACCEPT
 iptables -A OUTPUT -p tcp --dport 53 -j ACCEPT
 iptables -A OUTPUT -p tcp --dport 5000 -j ACCEPT
-
-
 ############################################################################
-                         DNS
+                        HOSTS 
+############################################################################
+git clone https://github.com/cristiancmoises/hosts
+cd hosts
+rm -rf /etc/hosts && cp hosts /etc/hosts
+############################################################################
+                        DNS
 ############################################################################
 nano /etc/resolv.conf
 nameserver 9.9.9.9
