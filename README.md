@@ -4,7 +4,7 @@
 
 Do you can use Let's Cloud or another VPS! FREE: https://hax.co.id/
 
-    add-apt-repository universe && apt update; apt upgrade; apt install -y tor privoxy macchanger fail2ban nmap git links stubby
+    add-apt-repository universe && apt update; apt upgrade; apt install -y tor privoxy macchanger fail2ban nmap git links stubby rsyslog
 
 ## STUBBY (QUAD9)
     mv /etc/stubby/stubby.yml /etc/stubby/stubby.backup.yml && sudo wget -O /etc/stubby/stubby.yml https://support.quad9.net/hc/en-us/article_attachments/4411087149453/stubby.yml
