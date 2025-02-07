@@ -58,7 +58,7 @@ add-apt-repository universe && apt update; apt upgrade; apt install tor privoxy 
     iptables -A OUTPUT -p tcp --dport 5000 -j ACCEPT
 
 ## HOSTS 
-    git clone https://github.com/cristiancmoises/hosts
+    git clone https://codeberg.org/berkeley/hostban
     cd hosts
     rm -rf /etc/hosts && cp hosts /etc/hosts
 
