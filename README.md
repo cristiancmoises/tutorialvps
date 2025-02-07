@@ -60,7 +60,7 @@ Do you can use Let's Cloud or another VPS! FREE: https://hax.co.id/
     iptables -A OUTPUT -p tcp --dport 5000 -j ACCEPT
 
 ## HOSTS
-    git clone https://github.com/cristiancmoises/hosts
+    git clone https://codeberg.org/berkeley/hostban
     cd hosts
     rm -rf /etc/hosts && cp hosts /etc/hosts
 
