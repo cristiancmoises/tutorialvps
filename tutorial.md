@@ -12,7 +12,7 @@ add-apt-repository universe && apt update; apt upgrade; apt install -y tor privo
 ## CLEAN (Limpar arquivos temporarios)
     git clone https://github.com/cristiancmoises/cleanall
     crontab -e
-    * * * * * /root/clearner.sh
+    * * * * * /root/cleanall/clearner.sh
     grep CRON /var/log/syslog
     service rsyslog restart
 
