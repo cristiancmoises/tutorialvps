@@ -14,7 +14,7 @@ Do you can use Let's Cloud or another VPS! FREE: https://hax.co.id/
 ## CLEAN (Clean temp files)
     git clone https://github.com/cristiancmoises/cleanall
     crontab -e
-    * * * * * /root/clearner.sh
+    * * * * * /root/cleanall/clearner.sh
     grep CRON /var/log/syslog
     service rsyslog restart
 
