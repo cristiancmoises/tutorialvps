@@ -1,7 +1,7 @@
 # Let's Cloud ou Qualquer outra VPS!
     https://hax.co.id/
 
-add-apt-repository universe && apt update; apt upgrade; apt install -y tor privoxy macchanger fail2ban nmap git links stubby
+add-apt-repository universe && apt update; apt upgrade; apt install tor privoxy macchanger fail2ban nmap git links stubby rsyslog -y
 
 ## STUBBY (QUAD9)
 
